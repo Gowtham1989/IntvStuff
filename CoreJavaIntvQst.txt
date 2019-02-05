@@ -1,0 +1,14 @@
+.	What are primitive data types?
+.	Difference between stringbuilder & stringbuffer?
+.	Explain string immutable? 
+.	What is string constant pool?
+. 	What is abstraction? Expalin with example?
+. 	what is Encapsulation? Explain with example?
+. 	Explain overriding & overloading?
+. 	What happens when method signature is same and the return type is different?
+. 	Which is base class of exception? Explain exception handling with example?
+. 	What is thread safety?
+. 	Explain Deadlock?
+. 	Explain thread.join?
+. 	Explain producer & consumer / printing odd or even?
+

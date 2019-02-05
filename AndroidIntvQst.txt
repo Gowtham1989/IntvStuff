@@ -1,0 +1,93 @@
+Android Interview Question
+
+.	Android Boot Up Sequence?
+.	Android architecture, where JNI is used in the architecture?
+.	Android Treble architecture?
+.	Android Components
+	•	Activity.
+	•	Service.
+	•	Broadcast receiver.
+	•	Content provider.
+	
+ACTIVITY
+ 
+.	Scenario of activity lifecycle
+	•	Explain activity lifecycle.
+	•	When activity is launched from doesn’t exist to foreground.
+	•	When activity A launches activity B.
+	•	When activity B presses back button and go to activity A.
+	•	When power button pressed.
+	•	When activity is in foreground, dialog is launched after completing the background task. For example downloading the file.
+	•	When you change the orientation of the phone.
+	•	When you kill the application.
+.	Purpose of onSaveInstanceState & onRestoreInstanceState?
+.	Different ways of passing the data from one activity to another activity?
+.	Different Launch modes in android?
+
+INTENTS
+
+.	What is intent, Types of intent?
+.	Significance of intent filter?
+
+FRAGMENTS
+
+.	What is a fragment & benefits of it?
+.	Fragment Lifecycle?
+.	Different ways of creating the fragments?
+.	What are the new changes of creating the fragments in android API 28(Pie)?
+.	There are list of option in fragment, If any option is clicked it should go to next fragment and display the clicked option?
+
+SERVICE
+
+.	What is service, Types of services, Lifecycle of service? 
+.	Service runs in which thread?
+.	Difference between start service & intent service?
+.	Explain Bound service with implementation?
+.	Which is the base class of service?
+.	Different between service & thread?
+.	Difference between Service, Intent Service, AsyncTask & Threads?
+.	Explain START_STICKY, START_NOT_STICKY & START_REDELIVER_INTENT?
+.	Can an Intent Service execute multiple tasks sequentially?
+.	How to update the UI from intent service?
+.	What is inter process communication IPC, How to IPC is implemented in android?
+.	Explain AIDL?
+.	Explain Looper, Handler & Message queue?
+.	What are the limitations in service in android pie API 28?
+
+BROADCAST RECEIVER
+
+.	What is broadcast receiver, How to implement, Give few examples of System Broadcasts?
+.	Broadcast receiver runs in which thread?
+.	Different ways of registering broadcast receiver?
+.	What happens if we call  unregisterReceiver() method twice?
+.	What happens if you don't call unregisterReceiver() method at all?
+.	Can we have two broadcast receivers with same action in manifest?
+.	What is the time duration for ANR not to come in broadcast receiver?
+.	What is LocalBroadcastManager, when and how to use it. Explain the scenario.
+.	How will you register and unregister the Broadcast, and in which particular lifecycle method you will register and unregister?
+.	How will you be sure that your Broadcast is restricted to the other apps?
+
+CONTENT PROVIDER 
+
+.	What is content provider? Why does Android System need Content Providers?
+.	What are the operations supported by a Content Provider?
+.	Develop one example for content provider?
+
+ASYNC TASK
+
+.	What happens to the AsyncTask when the Activity that’s executes it, changes the orientation?
+.	How to create Async Task? What are override method are there async task? 
+.	Async task runs in which thread?
+.	Assume that the activity has one image view & button. When the button is clicked image in image view has to be changed. How to do?
+
+SQLITE DB
+
+.	How to create sqlite DB in android? Develop on example for sqlite DB?
+
+GENERAL QUESTIONS
+.	What is difference between .jar file & .apk file?
+.	What is ANR in android?
+.	What is pending intent? Explain the arguments?
+.	The intent mentioned in pending intent param is implicit or explicit intent?
+.	What is jobscheduler in android. Explain?
+	
